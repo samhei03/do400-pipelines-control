@@ -1,5 +1,4 @@
 pipeline {
-
     agent {
 
         node {
@@ -9,7 +8,6 @@ pipeline {
         }
 
     }
-
     stages {
 
         stage('Backend Tests') {
@@ -21,7 +19,6 @@ pipeline {
             }
 
         }
-
         stage('Frontend Tests') {
 
             steps {
@@ -33,5 +30,4 @@ pipeline {
         }
 
     }
-
 }
